@@ -252,14 +252,14 @@ namespace GeoAPI.Tests.Geometries
             Assert.AreEqual(ExpectedToString, actualResult);
         }
 
-        [Test]
-        public void TestClone()
-        {
-            T c = CreateCoordinate3D(100.0, 200.0, 50.0);
-            T clone = (T)c.Clone();
-            Assert.IsTrue(c.Equals(clone));
+        //[Test]
+        //public void TestClone()
+        //{
+        //    T c = CreateCoordinate3D(100.0, 200.0, 50.0);
+        //    T clone = (T)c.Clone();
+        //    Assert.IsTrue(c.Equals(clone));
 
-        }
+        //}
 
         [Test]
         public void TestDistance()
